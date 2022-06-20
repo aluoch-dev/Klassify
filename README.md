@@ -2,4 +2,5 @@
 
 Hi, welcome to this simple implementation of image classification training, and a following test for the same. 
 
-The program is run through the file test.py.
+Training is done in the insti.py file. 
+The program is run/tested through the file test.py.
