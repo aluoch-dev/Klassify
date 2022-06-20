@@ -77,19 +77,19 @@ model.fit_generator(
 
 model.save("model.h5")
 
-model = load_model('model.h5')
-image_path = './insti/test/all/44.jpg'
-image = keras.utils.load_img(
-    image_path, grayscale=False, color_mode='rgb', target_size=None,
-    interpolation='nearest'
-)
-img = np.array(image)
-img = img / 255.0
-img = img.reshape(1, 224, 224, 3)
-label = model.predict(img)
-print("Predicted Class (0 - Negative, 1- Positive): ")
-
-if label >= 0.5:
-    print("Positive")
-else:
-    print("Negative")
+# model = load_model('model.h5')
+# image_path = './insti/test/all/44.jpg'
+# image = keras.utils.load_img(
+#     image_path, grayscale=False, color_mode='rgb', target_size=None,
+#     interpolation='nearest'
+# )
+# img = np.array(image)
+# img = img / 255.0
+# img = img.reshape(1, 224, 224, 3)
+# label = model.predict(img)
+# print("Predicted Class (0 - Negative, 1- Positive): ")
+#
+# if label >= 0.5:
+#     print("Positive")
+# else:
+#     print("Negative")
