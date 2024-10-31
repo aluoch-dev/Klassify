@@ -1,0 +1,26 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    Image:
+        id: image_display
+        source: ''  # Placeholder for selected image
+        allow_stretch: True
+        keep_ratio: True
+
+    Button:
+        text: "Select Image"
+        size_hint_y: 0.1
+        on_release: app.select_image()
+
+    Button:
+        text: "Classify Image"
+        size_hint_y: 0.1
+        on_release: app.classify_image()
+
+    Label:
+        id: result_label
+        text: "Classification result will appear here."
+        size_hint_y: 0.1
+        color: (1, 1, 1, 1)

@@ -1,0 +1,32 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Buildozer and Android build files
+.buildozer/
+bin/
+*.apk
+*.aab
+*.log
+
+# macOS files
+.DS_Store
+
+# Editor and IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Kivy/Buildozer specific files
+*.spec
+build/
+dist/
+.dSYM/
+
+# Local environment variables
+.env
