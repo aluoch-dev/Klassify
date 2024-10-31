@@ -8,6 +8,7 @@ env/
 .venv/
 
 # Buildozer and Android build files
+buildozer/
 .buildozer/
 bin/
 *.apk
